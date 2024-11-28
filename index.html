@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario de Mantenimiento Muelles y Mofles Chuchín</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calendario de Mantenimiento Muelles y Mofles Chuchín</h1>
+    </header>
+
+    <div class="calendar-container">
+        <div class="calendar-controls">
+            <button id="prev-month">&lt;</button>
+            <span id="current-month"></span>
+            <button id="next-month">&gt;</button>
+        </div>
+        <div id="calendar" class="calendar"></div>
+    </div>
+
+    <div id="maintenance-info" class="maintenance-info hidden">
+        <h2>Mantenimiento Programado</h2>
+        <ul id="maintenance-list"></ul>
+        <button id="print-btn">Imprimir</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

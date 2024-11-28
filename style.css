@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.calendar-controls {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    max-width: 700px;
+}
+
+#calendar div {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+#calendar div:hover {
+    background-color: #e0f7fa;
+}
+
+.hidden {
+    display: none;
+}
+
+.maintenance-info {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e0f7fa;
+    border-radius: 5px;
+}
+
+#maintenance-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#maintenance-list li {
+    margin: 10px 0;
+}
+
+#maintenance-list li strong {
+    color: #007bff;
+}
+
+
+  
